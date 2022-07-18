@@ -12,4 +12,4 @@ else:
     x = 0
     while x < count:
         print("cycle")
-        x +=1 
+        x +=1 # if we don't put it, it will loop forever
