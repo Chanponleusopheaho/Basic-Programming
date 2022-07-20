@@ -7,3 +7,5 @@ print(secondIndex)
 List = ["Hello",[1,2,3,4]]
 print(List[0])
 print(List[0][1]) # The second [1] is the index in the first index " Nested "
+print(List[-1]) # it will print reverse way 
+print(List[-7])
