@@ -13,3 +13,20 @@ else:
     while x < count:
         print("cycle")
         x +=1 # if we don't put it, it will loop forever
+rows = int(input("Input Number:"))
+#outer loop
+for i in range(rows):
+    #inner llop
+    for j in range (i+1):
+        print('*', end="") # end = delete space underline
+    print(">>>>")
+
+num = 0
+for num in range (1,10):
+    if num == 5:
+        break
+    elif num ==2:
+        continue
+    else:
+        print (num)
+    
