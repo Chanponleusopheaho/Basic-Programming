@@ -8,4 +8,4 @@ for x in range (0, 101):
     else:
         Odd_num.append(num[x])
 print("Even numbers List:",Even_num)
-print("Odd numbers List:", Odd_num)
+print("Odd numbers List:", Odd_num) 
