@@ -18,5 +18,5 @@ def Hex(num):
         num = num // 16
   
     return hexadecimal
-for num in range(1,100,1):
+for num in range(1,16,1):
     print(num, binary(num),  Hex(num))
