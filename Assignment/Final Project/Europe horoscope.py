@@ -61,10 +61,11 @@ while start_over =='true':
 
     print("\nYour Astrological sign is :",sign)
 
-    user =input("\nWhat do you want to know? \n1 for Personality \n2 forPrediction \n3 Compatability \nInput what you want to know:")
-
-    if user == "1" :
-      print("Here is your Personality!!!!")
+    user =input("\nWhat do you want to know? \n1 Personality \n2 Prediction \n3 Compatability \nInput what you want to know:")
+    start_over='true'
+    while start_over =='true': 
+      if user == "1" :
+        print("Here is your Personality!!!!")
 
       if sign == "Sagittarius":
         print("\nYou hate people telling you what to do. However, rarely do you do anything, \n"

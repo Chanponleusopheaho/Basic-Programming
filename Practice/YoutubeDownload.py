@@ -5,7 +5,7 @@ from pytube import YouTube
 SAVE_PATH = "Downloads" #to_do 
   
 # link of the video to be downloaded 
-link="https://youtu.be/2-ANJLC4ss0?list=RD2-ANJLC4ss0"
+link="https://youtu.be/EKkzbbLYPuI?list=RDEKkzbbLYPuI"
   
 try: 
     # object creation using YouTube
